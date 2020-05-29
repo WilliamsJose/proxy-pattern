@@ -1,7 +1,5 @@
 package model;
 
-import controller.Banco;
-
 public class BancoProxy implements Banco {
 	private BancoUsuarios service;
 	protected String usuario, senha;
